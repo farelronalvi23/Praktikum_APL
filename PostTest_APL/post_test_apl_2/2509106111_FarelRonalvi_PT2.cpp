@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <sstream>
+
 using namespace std;
 
 struct User {
@@ -302,7 +302,7 @@ int adminUbahServis() {
 
     int idx = nomor - 1;
     string inp;
-    cin.ignore();
+    cin.ignore();\
 
     cout << "\n  [ Ubah Kendaraan ] (Enter = tidak diubah)\n";
     cout << "  Plat   [" << daftarServis[idx].kendaraan.platNomor << "]: ";
